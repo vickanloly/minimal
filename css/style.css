@@ -166,5 +166,9 @@ button {
   color: #7EC4BD;
 }
 .text {
-
+  font-size: 17px;
+  line-height: 22px;
+}
+.body {
+  display: block;
 }
