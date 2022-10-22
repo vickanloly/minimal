@@ -182,3 +182,6 @@ button {
 .text3 {
   color: #7EC4BD;
 }
+.text4 {
+  color-adjust: exact;
+}
