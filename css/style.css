@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 #navbar {
   list-style: none; display: flex;
@@ -48,7 +49,8 @@ footer {
   padding: 69px 0 75px
 }
 .wrapper {
-  max-width: 564px; margin: 0 auto;
+  max-width: 564px;
+  margin: 0 auto;
 }
 
 table {
@@ -307,6 +309,13 @@ max-width: 300px;
 .projects{
   background: #F5F5F5;
   padding-top: 79px;
+
+}
+.container_dflex {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+
 }
 .projects h2 {
   font-family: 'montserratregular';
@@ -329,9 +338,9 @@ max-width: 300px;
   margin-bottom: 43px;
 }
 .portfolio{
+  max-width: 300px;
   background: #FFFFFF;
-  margin-top: 19px;
-  margin-bottom: 89px;
+  margin-bottom: 20px;
 }
 .portfolio h3{
   font-family: 'montserratregular';
