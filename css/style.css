@@ -366,3 +366,214 @@ max-width: 300px;
   margin-bottom: 21px;
 
 }
+
+.team {
+  padding-top: 79px;
+  padding-bottom: 99px;
+}
+
+.team h2 {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.team h2:after {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.09);
+  margin: auto;
+  margin-top: 28px;
+  margin-bottom: 43px;
+}
+
+.portrait h3 {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+.portrait p {
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 29px;
+}
+
+
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact li {
+  margin-left: 6px;
+}
+
+.intouch {
+  background-image: url("../images/grenn bg img.png");
+  padding-top: 79px;
+  padding-bottom: 99px;
+}
+
+.intouch .container_dflex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.intouch h2 {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+.intouch h2:after {
+  content: "";
+  display: block;
+  width: 74px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.09);
+  margin: auto;
+  margin-top: 28px;
+  margin-bottom: 43px;
+}
+.contacts{
+  text-align: center;
+}
+.contacts h3 {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 34px;
+}
+.contacts p {
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.contacts p1 {
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #212121;
+}
+
+.contacts li{
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #212121;
+  text-decoration: none;
+  margin-left: 30px;
+  display: flex;
+  margin-top: 11px;
+}
+.contacts ul{
+  list-style: none;
+}
+
+.contacts li:before {
+  content: "";
+  display: inline-block;
+  background-image: url(../images/fb.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 9px;
+
+}
+.contacts li:nth-child(2):before{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/twit.svg);
+  width: 14px;
+  height: 13px;
+
+}
+.contacts li:last-of-type:before{
+
+  background-image: url(../images/liin.svg);
+  width: 14px;
+
+}
+
+.feedback {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-top: 69px;
+
+}
+
+.feedback img{
+  margin-bottom: 65px;
+}
+.vr {
+  display: inline;
+  width: 2px;
+  height: 215px;
+  border-left: 2px solid #d0d0d0;
+  margin-left: -50px;
+}
+.review{
+margin-bottom: 98px;
+}
+.review p {
+  font-family: 'Vollkorn', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 24px;
+
+}
+.review h5 {
+  font-family: 'montserratregular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ABABAB;
+  margin-top: -52px;
+}
+
